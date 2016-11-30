@@ -25,9 +25,14 @@
       }
 
 .date {
-color: #444;
+color: #bbbbbb;
 font-size: 60%;
 font-variant: small-caps;
 font-family: 'Courier New', Courier;
 font-weight: bold;
+}
+
+.intro {
+color: #424242;
+font-size: 70%;
 }
