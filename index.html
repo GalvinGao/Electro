@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <title>audio.js</title>
  <script>
   window.onload = function(){
     var now = document.URL;
@@ -10,32 +12,22 @@
     }
   }
 </script>
-    <meta charset="utf-8">
-    <title>[新版已推出] 尝尝我自制的拔丝电音！</title>
-    <script src="./audiojs/audio.min.js"></script>
-    <link rel="stylesheet" href="./includes/index.css" media="screen">
-    <script>
-      audiojs.events.ready(function() {
-        audiojs.createAll();
-      });
-    </script>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="http://cdn.bootcss.com/jquery/1.7.2/jquery.min.js"></script>
+    <script src="audiojs/audio.min.js"></script>
+    <script src="includes/new.js"></script>
+    <link rel="stylesheet" href="includes/new.css" media="screen">
   </head>
   <body>
-    <header>
-      <h1>尝尝我自制的拔丝电音！</h1>
-      <h3>戴上耳机效果更佳哦~</h3>
-    </header>
+    <div id="wrapper">
+      <h1>Galvin.G Unknown <em>(2016)</em></h1>
+      <audio preload></audio>
+      <ol>
 
-      <h4>2016.11.25 23:40 【不知道怎么起名】</h4>
+        <li><a href="#" data-src="http://ofcdecuts.bkt.clouddn.com/galvinelec_preview.mp3"><span class="date">2016.11.25 23:40</span> Flow</a></li>
+        <li><a href="#" data-src="http://ofcdecuts.bkt.clouddn.com/2333.mp3"><span class="date">2016.11.26 18:51</span> 噗嗤</a></li>
 
-    <audio src="http://ofcdecuts.bkt.clouddn.com/galvinelec_preview.mp3" preload="auto"></audio>
-
-      <h4><b>新</b>2016.11.26 18:51 【不知道怎么起名2】</h4>
-
-    <audio src="http://ofcdecuts.bkt.clouddn.com/2333.mp3" preload="auto"></audio>
-
-    <footer>
-      <p>©Copyright Galvin.G 2016</p>
-    </footer>
+      </ol>
+    </div>
   </body>
 </html>
